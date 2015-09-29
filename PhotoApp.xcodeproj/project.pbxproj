@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1318D2C1BA987130038B1D5 /* ProtectedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1318D2B1BA987130038B1D5 /* ProtectedPageViewController.swift */; };
+		A1318D301BA989EF0038B1D5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1318D2D1BA989EF0038B1D5 /* FBSDKCoreKit.framework */; };
+		A1318D311BA989EF0038B1D5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1318D2E1BA989EF0038B1D5 /* FBSDKLoginKit.framework */; };
+		A1318D321BA989EF0038B1D5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1318D2F1BA989EF0038B1D5 /* FBSDKShareKit.framework */; };
 		A169AE511BA90210003D6CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AE501BA90210003D6CDB /* AppDelegate.swift */; };
 		A169AE531BA90210003D6CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AE521BA90210003D6CDB /* ViewController.swift */; };
-		A169AE561BA90210003D6CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A169AE541BA90210003D6CDB /* Main.storyboard */; };
-		A169AE581BA90210003D6CDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A169AE571BA90210003D6CDB /* Images.xcassets */; };
-		A169AE5B1BA90210003D6CDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A169AE591BA90210003D6CDB /* LaunchScreen.xib */; };
 		A169AE671BA90210003D6CDB /* PhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AE661BA90210003D6CDB /* PhotoAppTests.swift */; };
+		A1DD44D81BA9143B00704BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A169AE541BA90210003D6CDB /* Main.storyboard */; };
+		A1DD44D91BA9144100704BA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A169AE571BA90210003D6CDB /* Images.xcassets */; };
+		A1DD44DA1BA9144D00704BA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A169AE591BA90210003D6CDB /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1318D2B1BA987130038B1D5 /* ProtectedPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedPageViewController.swift; sourceTree = "<group>"; };
+		A1318D2D1BA989EF0038B1D5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		A1318D2E1BA989EF0038B1D5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		A1318D2F1BA989EF0038B1D5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../FacebookSDKs-iOS-20150910/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		A169AE4B1BA90210003D6CDB /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169AE4F1BA90210003D6CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A169AE501BA90210003D6CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1318D301BA989EF0038B1D5 /* FBSDKCoreKit.framework in Frameworks */,
+				A1318D311BA989EF0038B1D5 /* FBSDKLoginKit.framework in Frameworks */,
+				A1318D321BA989EF0038B1D5 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,9 @@
 		A169AE421BA90210003D6CDB = {
 			isa = PBXGroup;
 			children = (
+				A1318D2D1BA989EF0038B1D5 /* FBSDKCoreKit.framework */,
+				A1318D2E1BA989EF0038B1D5 /* FBSDKLoginKit.framework */,
+				A1318D2F1BA989EF0038B1D5 /* FBSDKShareKit.framework */,
 				A169AE4D1BA90210003D6CDB /* PhotoApp */,
 				A169AE631BA90210003D6CDB /* PhotoAppTests */,
 				A169AE4C1BA90210003D6CDB /* Products */,
@@ -79,6 +93,7 @@
 			children = (
 				A169AE501BA90210003D6CDB /* AppDelegate.swift */,
 				A169AE521BA90210003D6CDB /* ViewController.swift */,
+				A1318D2B1BA987130038B1D5 /* ProtectedPageViewController.swift */,
 				A169AE541BA90210003D6CDB /* Main.storyboard */,
 				A169AE571BA90210003D6CDB /* Images.xcassets */,
 				A169AE591BA90210003D6CDB /* LaunchScreen.xib */,
@@ -156,7 +171,9 @@
 		A169AE431BA90210003D6CDB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Victor Gomes";
 				TargetAttributes = {
 					A169AE4A1BA90210003D6CDB = {
@@ -192,9 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A169AE561BA90210003D6CDB /* Main.storyboard in Resources */,
-				A169AE5B1BA90210003D6CDB /* LaunchScreen.xib in Resources */,
-				A169AE581BA90210003D6CDB /* Images.xcassets in Resources */,
+				A1DD44DA1BA9144D00704BA6 /* LaunchScreen.xib in Resources */,
+				A1DD44D91BA9144100704BA6 /* Images.xcassets in Resources */,
+				A1DD44D81BA9143B00704BA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1318D2C1BA987130038B1D5 /* ProtectedPageViewController.swift in Sources */,
 				A169AE531BA90210003D6CDB /* ViewController.swift in Sources */,
 				A169AE511BA90210003D6CDB /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +294,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,8 +359,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vitrol4/Desktop/FacebookSDKs-iOS-20150910",
+				);
 				INFOPLIST_FILE = PhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifsp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,8 +377,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vitrol4/Desktop/FacebookSDKs-iOS-20150910",
+				);
 				INFOPLIST_FILE = PhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifsp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -369,7 +404,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = PhotoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifsp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoApp.app/PhotoApp";
 			};
@@ -384,7 +421,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = PhotoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifsp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoApp.app/PhotoApp";
 			};
@@ -400,7 +439,7 @@
 				A169AE691BA90210003D6CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A169AE6A1BA90210003D6CDB /* Build configuration list for PBXNativeTarget "PhotoApp" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +448,7 @@
 				A169AE6C1BA90210003D6CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		A169AE6D1BA90210003D6CDB /* Build configuration list for PBXNativeTarget "PhotoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +457,7 @@
 				A169AE6F1BA90210003D6CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
